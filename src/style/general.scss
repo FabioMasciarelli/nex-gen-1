@@ -1,0 +1,33 @@
+@use '../style/partials/variables' as *;
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import "bootstrap/scss/bootstrap";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.btn-prymary-color {
+    cursor: pointer;
+    color: white;
+    border: 0;
+    padding: 10px 16px;
+    border-radius: 20px;
+    background-color: $primary-color;
+}
+
+.btn-secondary-color {
+    cursor: pointer;
+    color: white;
+    border: 1px solid $primary-color;
+    padding: 10px 16px;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
+.fabio {
+    background-color: white;
+}
